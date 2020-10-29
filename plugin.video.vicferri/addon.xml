@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.vicferri"
+	name="Youtube Caragols"
+	version="1.0"
+	provider-name="vicferri">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Canal Youtube des Caragols	</summary>
+    <description lang="es">Recopilació de canals iutup de sa família.</description>
+    <platform>all</platform>
+    <website>http://www.pluginsxbmc.com</website>
+    <email>pluginsxbmcmediacenter@gmail.com</email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+		</assets>
+       </extension>
+</addon>
